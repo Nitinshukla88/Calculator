@@ -20,7 +20,7 @@ h1{
 .innercontainer{
     
     
-    width: 20%;
+    width: 22%;
     border-radius: 20px;
     background-color: white;
 }
@@ -40,4 +40,19 @@ h1{
 
 .keys{
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
 }
+
+.useless{
+    border: 2px solid red;
+}
+
+.number{
+    border: 2px solid green;
+}
+
+.symbols{
+    border: 2px solid rgb(202, 30, 58);
+}
+
