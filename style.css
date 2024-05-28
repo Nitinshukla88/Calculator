@@ -47,7 +47,6 @@ h1{
 .useless{
     border: 2px solid red;
     display: flex;
-    
 }
 
 .number{
@@ -59,44 +58,81 @@ h1{
     border: 2px solid rgb(202, 30, 58);
     display: flex;
     flex-direction: column;
+    margin-left: 6px;
 }
 
 .operators{
-    height: 20px;
-    width: 20px;
+    height: 55px;
+    width: 55px;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
 }
 
 .uselesssymbols{
-    height: 20px;
-    width: 20px;
+    height: 55px;
+    width: 55px;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
 }
 
 .firstrow{
-    height: 20px;
-    width: 20px;
+    height: 55px;
+    width: 55px;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
 }
 
 .secondrow{
-    height: 20px;
-    width: 20px;
+    height: 55px;
+    width: 55px;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
 }
 
 .thirdrow{
-    height: 20px;
-    width: 20px;
+    height: 55px;
+    width: 55px;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
+}
+
+.fourthrow{
+    height: 55px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 5px;
+}
+
+.integernumbers{
+    display: flex;
+}
+
+#unielement{
+    width: 100px;
+    border-radius: 25%;
+    margin-left: 20px;
 }
