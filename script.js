@@ -5,6 +5,8 @@ string = ""
 
 isequalpressed =false
 
+childcount=0
+
 document.addEventListener("click",function(event){
     if(isequalpressed== true){
         document.querySelector('.displayarea').replaceChildren()
@@ -18,11 +20,16 @@ document.addEventListener("click",function(event){
         flag=0
     }
     newdiv = document.createElement('span')
-    document.querySelector('.displayarea').appendChild(newdiv)
+    
+    
     if(text!="="){
         newdiv.innerHTML = text
     }
+    // newdiv.style.margin="200px"
+    newdiv.style.position="absolute"
+    newdiv.style.right="0"
     newdiv.style.textAlign= "center"
+    document.querySelector('.displayarea').appendChild(newdiv)
     if(text=="AC" && flag ==0){
         document.querySelector('.displayarea').style.visibility= "hidden"
         flag=1
@@ -38,8 +45,5 @@ document.addEventListener("click",function(event){
     if(text!="AC" && text!="="){
         string+=text
     }
-    console.log(string)
-    
-    
 })
 
