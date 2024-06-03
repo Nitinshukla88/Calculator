@@ -25,6 +25,8 @@ document.addEventListener("click",function(event){
     }
     // newdiv.style.margin="200px"
     newdiv.style.textAlign= "center"
+    newdiv.style.fontSize="1.7rem"
+    newdiv.style.marginLeft="20px"
     newdiv.style.color="white"
     document.querySelector('.displayarea').appendChild(newdiv)
     if(text=="AC" && flag ==0){
@@ -42,6 +44,7 @@ document.addEventListener("click",function(event){
         ans.style.paddingLeft="143px"
         ans.style.color="white"
         ans.innerHTML= eval(string)
+        // console.log(eval(string))
         ans.style.textAlign="center"
         document.querySelector('.displayarea').appendChild(ans)
         isequalpressed= true
