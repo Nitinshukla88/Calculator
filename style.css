@@ -22,7 +22,7 @@ h1{
     
     width: 22%;
     border-radius: 20px;
-    background-color: white;
+    background-color: black;
 }
 
 .outercontainer{
@@ -33,30 +33,24 @@ h1{
 }
 
 .displayarea{
-    border: 2px solid black;
     height: 100px;
     border-radius: 20px;
-    position: relative;
 }
 
 .keys{
-    border: 2px solid black;
     display: flex;
     
 }
 
 .useless{
-    border: 2px solid red;
     display: flex;
 }
 
 .number{
-    border: 2px solid green;
     display: flex;
 }
 
 .symbols{
-    border: 2px solid rgb(202, 30, 58);
     display: flex;
     flex-direction: column;
     margin-left: 6px;
@@ -65,7 +59,9 @@ h1{
 .operators{
     height: 55px;
     width: 55px;
-    border: 2px solid black;
+    color: white;
+    background-color: rgb(245, 163, 10);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -76,9 +72,12 @@ h1{
 .uselesssymbols{
     height: 55px;
     width: 55px;
-    border: 2px solid black;
+    color: black;
+    background-color: rgb(184, 180, 180);
     border-radius: 50%;
     text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     vertical-align: middle;
     line-height: 55px;
     margin: 5px;
@@ -88,6 +87,9 @@ h1{
     height: 55px;
     width: 55px;
     border: 2px solid black;
+    background-color: rgb(66, 65, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -99,6 +101,9 @@ h1{
     height: 55px;
     width: 55px;
     border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(66, 65, 65);
+    color: white;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -110,6 +115,9 @@ h1{
     height: 55px;
     width: 55px;
     border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(66, 65, 65);
+    color: white;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -121,6 +129,9 @@ h1{
     height: 55px;
     width: 55px;
     border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(66, 65, 65);
+    color: white;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -135,5 +146,8 @@ h1{
 #unielement{
     width: 100px;
     border-radius: 25%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(66, 65, 65);
     margin-left: 20px;
 }

@@ -5,8 +5,6 @@ string = ""
 
 isequalpressed =false
 
-childcount=0
-
 document.addEventListener("click",function(event){
     if(isequalpressed== true){
         document.querySelector('.displayarea').replaceChildren()
@@ -26,18 +24,25 @@ document.addEventListener("click",function(event){
         newdiv.innerHTML = text
     }
     // newdiv.style.margin="200px"
-    newdiv.style.position="absolute"
-    newdiv.style.right="0"
     newdiv.style.textAlign= "center"
+    newdiv.style.color="white"
     document.querySelector('.displayarea').appendChild(newdiv)
     if(text=="AC" && flag ==0){
         document.querySelector('.displayarea').style.visibility= "hidden"
         flag=1
     }
     if(text=="="){
-        document.querySelector('.displayarea').replaceChildren()
-        ans= document.createElement('span')
+        // document.querySelector('.displayarea').replaceChildren()
+
+        // replaceChildren() can be used to clear the element
+        
+        ans= document.createElement('div')
+        ans.style.height="75px"
+        ans.style.lineHeight="7"
+        ans.style.paddingLeft="143px"
+        ans.style.color="white"
         ans.innerHTML= eval(string)
+        ans.style.textAlign="center"
         document.querySelector('.displayarea').appendChild(ans)
         isequalpressed= true
         string =""
