@@ -25,6 +25,7 @@ document.addEventListener("click",function(event){
     }
     // newdiv.style.margin="200px"
     newdiv.style.textAlign= "center"
+    newdiv.style.lineHeight="2"
     newdiv.style.fontSize="1.5rem"
     newdiv.style.marginLeft="4px"
     newdiv.style.paddingTop="10px"
@@ -41,7 +42,7 @@ document.addEventListener("click",function(event){
         
         ans= document.createElement('div')
         ans.style.height="75px"
-        ans.style.lineHeight="5"
+        ans.style.lineHeight="3"
         ans.style.paddingLeft="143px"
         ans.style.fontSize="1.5rem"
         ans.style.overflow="hidden"
